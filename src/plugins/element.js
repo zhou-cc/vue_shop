@@ -28,7 +28,8 @@ import {
     Dropdown,
     Tree,
     Select,
-    Option
+    Option,
+    Cascader
 } from 'element-ui'
 
 //注册为全局可用的组件
@@ -59,6 +60,7 @@ Vue.use(Dropdown)
 Vue.use(Tree)
 Vue.use(Select)
 Vue.use(Option)
+Vue.use(Cascader)
 Vue.prototype.$message = Message
 Vue.prototype.$confirm = MessageBox.confirm
  
